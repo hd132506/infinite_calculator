@@ -7,6 +7,7 @@ typedef struct Number {
     char* decimal_part;
 } Number;
 
+Number* init_number();
 
 void trim(Number* n);
 char* trim_integer_part(char* str);
