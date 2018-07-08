@@ -28,3 +28,7 @@ char pop(Stack* s) {
     free(free_node);
     return poppee;
 }
+
+int empty(Stack* s) {
+    return s->size == 0;
+}

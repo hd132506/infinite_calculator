@@ -9,3 +9,4 @@ Stack* init_stack();
 void push(Stack* s, char data);
 char top(Stack* s);
 char pop(Stack* s);
+int empty(Stack* s);
