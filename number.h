@@ -13,3 +13,4 @@ char* trim_integer_part(char* str);
 void trim_decimal_part(char* str);
 
 void input_number(Number* n);
+void print_number(Number* n);
